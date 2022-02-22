@@ -1,0 +1,69 @@
+h1 {
+    color: aliceblue;
+}
+
+#home-header {
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px whitesmoke;
+    width: 600px;
+    text-align: center;
+}
+
+/* .home {
+   
+} */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    height: 530px;
+    width: 790px;
+    background: url('https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2022-02/hill-hero.jpg?h=d1cb525d&itok=WaWBfQQt');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 8px solid white;
+    border-radius: 20px;
+    color: blanchedalmond;
+    box-shadow: 20px 20px 8px 5px rgba(245, 246, 205, 0.9);
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 4px red;
+    cursor: default;
+}
+
+#results {
+    align-self: flex-start;
+    margin-left: 5px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: left;
+    height: 20px;
+    margin-top: 0;
+    margin-left: 3px;
+}
+
+#title {
+    align-self: flex-start;
+    font-size: 40px;
+    text-align: left;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 3px;
+}
+
+#text {
+    align-self: flex-start;
+    font-size: 25px;
+    text-align: left;
+    align-self: flex-end;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+#text:hover, #title:hover {
+    text-shadow: 1px 1px 4px blue;
+}
