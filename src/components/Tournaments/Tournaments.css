@@ -1,0 +1,99 @@
+.tournaments-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    height: 500px;
+    width: 100%;
+    background: url('https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2021-07/07172021-Islam-Makhachev-Post-Fight-Portrait.jpg?h=d1cb525d&itok=2hxC8Jis');
+    background-size: 100%;
+    background-position: 0%;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#tournaments-menu {
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#tournaments-menu hr {
+    border: 0;
+    height: 1px;
+    background-color: grey;
+    width: 70vw;
+}
+
+#tournaments-results {
+    color: rgb(202, 202, 202);
+    align-self: flex-start;
+    padding-left: 10px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 3px;
+    text-transform: uppercase;
+}
+
+#tournaments-title {
+    align-self: flex-start;
+    font-size: 70px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#tournaments-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: flex-start;
+    font-size: 20px;
+    text-align: left;
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+#tournaments-date {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 3px;
+    justify-self: flex-end;
+}
+
+.tournaments-grid {
+    position: absolute;
+    background-color: white;
+    display: grid;
+    grid-template-areas: 
+    "news-main news-aside";
+    grid-template-columns: 70% 30%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.tournaments-main {
+    grid-area: news-main;
+    text-align: left;
+}
+
+.tournaments-aside {
+    grid-area: news-aside;
+    text-align: right;
+}
+
+.tournaments-grid hr {
+    border: 0;
+    height: 1px;
+    background-color: grey;
+    width: 70vw;
+}

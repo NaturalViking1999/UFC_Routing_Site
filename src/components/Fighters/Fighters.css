@@ -1,0 +1,103 @@
+.fighters-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    height: 500px;
+    width: 100%;
+    background: url('https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2019-04/islam%20makhachev%20hero.jpg?VersionId=9yFfpZJPvXVZ2zoymTNPRYZwoGsJTYVe&itok=XOfUhz04');
+    background-size: 100%;
+    background-position: 0%;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#fighters-menu {
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#fighters-menu hr {
+    border: 0;
+    height: 1px;
+    background-color: grey;
+    width: 70vw;
+}
+
+#fighters-results {
+    color: rgb(202, 202, 202);
+    align-self: flex-start;
+    padding-left: 10px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 3px;
+    text-transform: uppercase;
+}
+
+#fighters-title {
+    align-self: flex-start;
+    font-size: 70px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#fighters-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: flex-start;
+    font-size: 20px;
+    text-align: left;
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+#fighters-date {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 3px;
+    justify-self: flex-end;
+}
+
+.fighters-grid {
+    position: absolute;
+    background-color: white;
+    display: grid;
+    grid-template-areas: 
+    "news-main news-aside";
+    grid-template-columns: 70% 30%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.fighters-main {
+    grid-area: news-main;
+    text-align: left;
+}
+
+.fighters-aside {
+    grid-area: news-aside;
+    text-align: right;
+}
+
+.fighters-grid hr {
+    border: 0;
+    height: 1px;
+    background-color: grey;
+    width: 70vw;
+}
+
+#video {
+    margin-bottom: 20px;
+}

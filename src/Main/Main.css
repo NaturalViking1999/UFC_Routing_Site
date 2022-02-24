@@ -9,10 +9,6 @@ h1 {
     text-align: center;
 }
 
-/* .home {
-   
-} */
-
 .main {
     display: flex;
     flex-direction: column;
@@ -21,9 +17,6 @@ h1 {
     margin-bottom: 50px;
     height: 530px;
     width: 790px;
-    background: url('https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2022-02/hill-hero.jpg?h=d1cb525d&itok=WaWBfQQt');
-    background-size: contain;
-    background-repeat: no-repeat;
     border: 8px solid white;
     border-radius: 20px;
     color: blanchedalmond;
@@ -31,6 +24,20 @@ h1 {
     font-family:'Times New Roman', Times, serif;
     text-shadow: 1px 1px 4px red;
     cursor: default;
+}
+
+.main-actual {
+    transition: 0.6s all;
+}
+
+.main-prev {
+    /* transform: translateX(-100%); */
+    display: none;
+}
+ 
+.main-next {
+    /* transform: translateX(100%); */
+    display: none;
 }
 
 #results {
@@ -49,7 +56,6 @@ h1 {
     align-self: flex-start;
     font-size: 40px;
     text-align: left;
-    height: 50px;
     margin-top: 0;
     margin-left: 3px;
 }
@@ -59,11 +65,121 @@ h1 {
     font-size: 25px;
     text-align: left;
     align-self: flex-end;
-    height: 50px;
     margin-top: 10px;
     margin-left: 3px;
 }
 
 #text:hover, #title:hover {
     text-shadow: 1px 1px 4px blue;
+}
+
+#btn-1 {
+    position: absolute;
+    top: 200px;
+    flex: 1 1 auto;
+    margin: 0 -50px;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+#btn-2 {
+    position: absolute;
+    top: 200px;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+#btn-3 {
+    position: absolute;
+    top: 200px;
+    flex: 1 1 auto;
+    margin: 0 +50px;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.main-1 {
+    background: url('https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2022-02/hill-hero.jpg?h=d1cb525d&itok=WaWBfQQt');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-2 {
+    background: url('https://dmxg5wxfqgb4u.cloudfront.net/2020-07/generic%20apex%20octagon%20hero.jpg?VersionId=rPgeb1BStcgt4c0Sh17HaQORsxswMGg8');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-3 {
+    background: url('https://dmxg5wxfqgb4u.cloudfront.net/2021-03/GettyImages-1305738542_0.jpg?VersionId=null');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.buttons {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    margin: 0 -5px;
+}
+
+@media (max-width: 840px) {
+.main {
+    width: 600px;
+}
+}
+
+@media (max-width: 660px) {
+    .main {
+        width: 400px;
+        height: 300px;
+        box-shadow: none;
+    }
+    #title {
+        font-size: 20px;
+    }
+    #text {
+        font-size: 16px;
+    }
+    #results {
+        font-size: 16px;
+    }
+    #home-header {
+        max-width: 400px;
+        font-size: 16px;
+    }
+    #btn-1 {
+        top: 240px;
+    }
+    #btn-2 {
+        top: 240px;
+    }
+    #btn-3 {
+        top: 240px;
+    }
+}
+
+@media (max-width: 515px) {
+    .main {
+        width: 300px;
+        height: 200px;
+    } 
+    #title {
+        font-size: 16px;
+    }
+    #text {
+        font-size: 12px;
+    }
+    #results {
+        font-size: 12px;
+    }
+    #home-header {
+        max-width: 300px;
+        font-size: 12px;
+    }
 }
