@@ -23,7 +23,7 @@ const Tournaments = () => {
                         <p>   Открывать главный кард будет дебютант UFC Армен Петросян - представитель Армении проведёт бой с Грегори Родригесом.</p>
                         <p> Предлагаем вашу вниманию полный кард предстоящего турнира.</p>
                     </div>
-                    <img src="https://dmxg5wxfqgb4u.cloudfront.net/styles/inline/s3/2022-02/022622-ufc-fight-night-makhachev-vs-green-sg-hero.jpg?itok=vjO06B4u" width="804" height="452" loading="lazy" class="image-style-inline"></img>
+                    <img id='img-1' src="https://dmxg5wxfqgb4u.cloudfront.net/styles/inline/s3/2022-02/022622-ufc-fight-night-makhachev-vs-green-sg-hero.jpg?itok=vjO06B4u" loading="lazy" class="image-style-inline"></img>
                     <div>
                         <h2>Главный кард:</h2>
                         <h3>Промежуточный вес:</h3>

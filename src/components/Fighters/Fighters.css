@@ -7,7 +7,7 @@
     height: 500px;
     width: 100%;
     background: url('https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2019-04/islam%20makhachev%20hero.jpg?VersionId=9yFfpZJPvXVZ2zoymTNPRYZwoGsJTYVe&itok=XOfUhz04');
-    background-size: 100%;
+    background-size: cover;
     background-position: 0%;
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -41,7 +41,7 @@
 
 #fighters-title {
     align-self: flex-start;
-    font-size: 70px;
+    font-size: 50px;
     text-align: left;
     margin-top: 0;
     margin-bottom: 0;
@@ -100,4 +100,48 @@
 
 #video {
     margin-bottom: 20px;
+}
+
+@media(max-width: 1030px) {
+    .fighters-header {
+        height: 400px;
+    }
+    #fighters-title {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 840px) {
+    .fighters-header {
+        height: 400px;
+    }
+    #fighters-title {
+        font-size: 30px;
+    }
+    #fighters-results {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .video {
+        width: 70vw;
+    }
+}
+
+@media(max-width: 660px) {
+    .fighters-header {
+        height: 300px;
+    }
+    #fighters-title {
+        font-size: 20px;
+    }
+    #fighters-results {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    #fighters-text {
+        font-size: 12px;
+    }
+    .video {
+        width: 70vw;
+    }
 }

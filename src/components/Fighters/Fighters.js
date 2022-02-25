@@ -20,7 +20,7 @@ const Fighters = () => {
                         <p>Муслим Салихов начал свой путь в UFC с поражения, но в следующих двух боях наглядно продемонстрировал, почему его называют королём кунг-фу.
                             <br />
                             Сначала россиянин нокаутировал Рики Рэйни, а затем жёстко выключил свет Нордину Талебу, которого вы можете знать не только как профессионального бойца, но и человека, подрабатывавшего в качестве телохранителя одного из самых популярных футболистов современности Неймара. Согласитесь, не каждый может похвастать победой над человеком с таким резюме. </p>
-                        <iframe width="603" height="315" src="https://www.youtube.com/embed/pRmgAi9P3XY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className='video' width="603" height="315" src="https://www.youtube.com/embed/pRmgAi9P3XY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h2>Майрбек Тайсумов vs Фелипе Силва, 2 сентября 2017 года, UFC Fight Night 115</h2>
                         <p>Перед поединком с Фелипе Силвой Майрбек Тайсумов шёл на впечатляющей серии из четырёх досрочных побед, но, кажется, бразилец всё-таки недооценил ударную мощь россиянина.
                             <br />
@@ -38,7 +38,7 @@ const Fighters = () => {
                             <br />
                             На видео ниже наглядное пособие о том, как нужно доказывать неправоту подобных раскладов и всех тех, кто в тебе сомневается.  </p>
                         <p><strong>Также в этом видео:</strong> брутальные нокауты в исполнении Петра Яна, Никиты Крылова и Валентины Шевченко, которые вы могли видеть в нашей подборке самых жёсткий нокаутов ударами ногой в голову от наших бойцов UFC. </p>
-                        <iframe id='video' width="603" height="315" src="https://www.youtube.com/embed/nQvT1n2ci1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className='video' id='video' width="603" height="315" src="https://www.youtube.com/embed/nQvT1n2ci1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </main>
                 <aside className='fighters-aside'>Empty Container :)</aside>

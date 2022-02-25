@@ -7,7 +7,7 @@
     height: 500px;
     width: 100%;
     background: url('https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2022-02/hill-hero.jpg?h=d1cb525d&itok=WaWBfQQt');
-    background-size: 100%;
+    background-size: cover;
     background-position: 0%;
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -41,7 +41,7 @@
 
 #news-title {
     align-self: flex-start;
-    font-size: 70px;
+    font-size: 50px;
     text-align: left;
     margin-top: 0;
     margin-bottom: 0;
@@ -101,4 +101,42 @@
 #big-symbol {
     font-size: 40px;
     font-weight: bold;
+}
+
+@media(max-width: 1030px) {
+    .news-header {
+        height: 400px;
+    }
+    #news-title {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 840px) {
+    .news-header {
+        height: 400px;
+    }
+    #news-title {
+        font-size: 30px;
+    }
+    #news-results {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 660px) {
+    .news-header {
+        height: 300px;
+    }
+    #news-title {
+        font-size: 20px;
+    }
+    #news-results {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    #news-text {
+        font-size: 12px;
+    }
 }

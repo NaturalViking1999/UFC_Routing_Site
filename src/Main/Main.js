@@ -86,7 +86,7 @@ const Main = () => {
     return (
         <div className='home'>
             <header id='home-header'>
-                <h1>News and Results of the Tournament from Last 7 Days:</h1>
+                <h1 id="main-h1" >News and Results of the Tournament from Last 7 Days:</h1>
             </header>
             {Slider()}
         </div>

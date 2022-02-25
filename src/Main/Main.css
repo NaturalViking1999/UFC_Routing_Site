@@ -1,6 +1,11 @@
-h1 {
+.home {
+    margin-top: 50px;
+}
+
+#main-h1 {
     color: aliceblue;
 }
+
 
 #home-header {
     margin: 0 auto;
